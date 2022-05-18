@@ -121,7 +121,6 @@ $pekerjaan_ibu="";
 $penghasilan_ibu="";
 $berkebutuhan_khusus_ibu="";
 
-$pesan_sukses="";
 
 //Jika method POST dijalankan
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -1701,8 +1700,6 @@ echo "Berkebutuhan Khusus (Ibu)= ". $berkebutuhan_khusus_ibu;
 echo "<br>";
 echo "<br>";
 
-//Menampilkan pesan sukses jika berhasil menyimpan data
-echo $pesan_sukses;
 ?>
 <br> 
 
